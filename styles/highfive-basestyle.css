@@ -32,6 +32,9 @@
 }
 
 /** */
+.hf-m5 {
+    margin: 5px;
+}
 .hf-m10 {
     margin: 10px;
 }
@@ -40,6 +43,9 @@
 }
 .hf-m20 {
     margin: 20px;
+}
+.hf-p5 {
+    padding: 5px;
 }
 .hf-p10 {
     padding: 10px;
@@ -91,10 +97,14 @@
 
 /** */
 .hf-noselect {
-    user-select: none;
+    user-select: none !important;
 }
 .hf-noradius {
     border-radius: 0px !important;
+}
+.hf-noborder {
+    border: unset !important;
+    box-shadow: unset !important;
 }
 
 
