@@ -1,0 +1,100 @@
+:root {
+    --hf-color: rgb(0, 9, 111);
+    --hf-aliceblue: aliceblue;
+    --hf-main-ffamily: Segoe UI, Arial;
+
+    --hf-transition-base: all 0.3s ease-in-out 0s;
+    --hf-transition-long: all 0.7s ease-in-out 0s;
+
+    --hf-color-monkeyred: /** soon */;
+    --hf-color-bestorange: /** soon */;
+    --hf-color-lightningblue: /** soon */;
+    --hf-color-narwhalepurple: /** soon */;
+}
+
+/** */
+.hf-100-100 {
+    width: 100% !important;
+    height: 100% !important;
+}
+.hf-abs-100 {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.hf-w100 {
+    width: 100% !important;
+}
+.hf-h100 {
+    height: 100% !important;
+}
+
+/** */
+.hf-m10 {
+    margin: 10px;
+}
+.hf-m15 {
+    margin: 15px;
+}
+.hf-m20 {
+    margin: 20px;
+}
+.hf-p10 {
+    padding: 10px;
+}
+.hf-p15 {
+    padding: 15px;
+}
+.hf-p20 {
+    padding: 20px;
+}
+
+/** */ 
+.hf-row,
+.hf-column {
+    display: flex;
+}
+.hf-row {
+    flex-direction: row;
+}
+.hf-column {
+    flex-direction: column;
+}
+
+/** */
+.hf-flex-center,
+.hf-flex-left,
+.hf-flex-right {
+    display: flex;
+    align-items: center;
+}
+.hf-flex-center {
+    justify-content: space-around;
+}
+.hf-flex-left {
+    justify-content: flex-start;
+}
+.hf-flex-right {
+    justify-content: flex-end;
+}
+
+/** */ 
+.hf-spacer-layout {
+    display: flex;
+    flex-flow: column;
+}
+.hf-spacer {
+    flex: 1 1 auto;
+}
+
+/** */
+.hf-noselect {
+    user-select: none;
+}
+.hf-noradius {
+    border-radius: 0px !important;
+}
+
+
