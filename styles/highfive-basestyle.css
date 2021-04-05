@@ -32,6 +32,9 @@
 }
 
 /** */
+.hf-m0 {
+    margin: 0px !important;
+}
 .hf-m5 {
     margin: 5px;
 }
@@ -43,6 +46,9 @@
 }
 .hf-m20 {
     margin: 20px;
+}
+.hf-p0 {
+    padding: 0px !important;
 }
 .hf-p5 {
     padding: 5px;
