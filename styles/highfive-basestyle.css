@@ -76,20 +76,32 @@
 }
 
 /** */
+.hf-center,
+.hf-left,
+.hf-right,
 .hf-flex-center,
 .hf-flex-left,
 .hf-flex-right {
     display: flex;
     align-items: center;
 }
+.hf-center,
 .hf-flex-center {
     justify-content: space-around;
 }
+.hf-left,
 .hf-flex-left {
     justify-content: flex-start;
 }
+.hf-right,
 .hf-flex-right {
     justify-content: flex-end;
+}
+
+/** */
+.hf-wrap {
+    flex-wrap: wrap;
+    word-wrap: break-word;
 }
 
 /** */ 
