@@ -1,0 +1,21 @@
+{
+  "name": "hf-mail-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc && npm run",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs-modules/mailer": "^1.6.0",
+    "@types/nodemailer": "^6.4.4",
+    "hf-env-module": "file:../hf-env-module",
+    "nodemailer": "^6.7.1",
+    "rimraf": "^3.0.2"
+  }
+}
